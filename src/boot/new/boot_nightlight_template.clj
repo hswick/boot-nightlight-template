@@ -12,4 +12,5 @@
     (->files data
              ["src/{{sanitized}}/core.clj" (render "core.clj" data)]
              ["build.boot" (render "build.boot" data)]
-             [".gitignore" (render ".gitignore" data)])))
+             [".gitignore" (render ".gitignore" data)]
+             ["README.MD" (render "README.MD" data)])))
