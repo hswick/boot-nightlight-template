@@ -4,7 +4,7 @@
 (set-env! :resource-paths #{"resources" "src"}
           ;; uncomment this if you write tests for your template:
           ;; :source-paths   #{"test"}
-          :dependencies   '[[org.clojure/clojure "1.5.0-alpha3"]
+          :dependencies   '[[org.clojure/clojure "1.8.0"]
                             [boot/new "0.5.2"]
                             [adzerk/boot-test "1.2.0" :scope "test"]
                             [adzerk/bootlaces "0.1.13" :scope "test"]])
