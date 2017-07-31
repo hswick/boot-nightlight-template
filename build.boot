@@ -1,5 +1,5 @@
 (def project 'boot-nightlight-template/boot-template)
-(def version "0.1.1")
+(def version "0.1.2")
 
 (set-env! :resource-paths #{"resources" "src"}
           ;; uncomment this if you write tests for your template:
