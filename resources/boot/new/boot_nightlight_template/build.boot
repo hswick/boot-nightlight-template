@@ -11,3 +11,7 @@
   (comp
     (wait)
     (nightlight :port 4000)))
+
+(deftask run []
+  (with-pass-thru _
+    ({{name}}.core/-main)))
